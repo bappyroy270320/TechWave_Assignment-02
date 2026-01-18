@@ -21,26 +21,49 @@
     background: linear-gradient( 90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100% );
     padding: 10px 16px;
     border: none;
+    margin-right: 8px;
 }
+
+.btn-two{
+    color: #00FF88;
+    border-radius: 10000px;
+    border: 1px solid #00FF88;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 10px 20px;
+    background: transparent;
+    
+
+
+}
+
 
 
 /* header styles */
 header{
     background-color: #1A0B2E;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    background: url(./img/hero-bg.png);
+    
+    
 }
 
 
 
 
 /* navbar related styles */
+.header-section{
+    border-bottom: 1px solid #412567;
+    padding-bottom: 16px;
+
+}
 
 .navbar{
     max-width: 1200px;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
+    
 }
 
 .nav-menu{
@@ -55,4 +78,97 @@ header{
     line-height: 120%;
     color: white;
 
+}
+
+/* banner section css */
+.banner-section{
+    /* width: 34%; */
+    max-width: 550px;
+    justify-content: center;
+    margin: 101px auto;
+    text-align: center;
+    
+
+}
+
+.banner-img {
+    
+    margin: 0 auto 40px auto;
+    
+
+}
+.banner-text{
+    font-size: 3.75rem;
+    color: white;
+    margin-bottom: 8px;
+
+}
+.banner-button{
+    padding-bottom: 101px;
+
+}
+
+.banner-pera{
+    
+    font-size: 0.9375rem;
+    color: white;
+    margin-bottom: 24px;
+
+
+}
+
+/* main css */
+.main-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    
+    /* background-color: #1A0B2E; */
+}
+
+/* about section css */
+
+.about-section{
+    margin-top: 50px;
+    
+}
+
+.about-section h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.p-1 {
+    font-size: 0.9375rem;
+    color: white;
+    line-height: 20px;
+    
+
+}
+.p-3 {
+    font-size: 0.9375rem;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+.p-4 {
+    font-size: 0.9375rem;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 50px;
+
+
+}
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
 }
