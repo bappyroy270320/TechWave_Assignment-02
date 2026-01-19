@@ -44,6 +44,9 @@ header{
     background-color: #1A0B2E;
     padding-top: 16px;
     background: url(./img/hero-bg.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    
     
     
 }
@@ -82,10 +85,11 @@ header{
 
 /* banner section css */
 .banner-section{
-    /* width: 34%; */
+    width: 34%;
     max-width: 550px;
     justify-content: center;
-    margin: 101px auto;
+    margin: 0 auto;
+    padding-top: 101px;
     text-align: center;
     
 
@@ -112,25 +116,31 @@ header{
     
     font-size: 0.9375rem;
     color: white;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 
 
 }
 
 /* main css */
+
+.color{
+    background-color: #1A0B2E;
+
+}
+
 .main-section{
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
     
-    /* background-color: #1A0B2E; */
+    
 }
 
 /* about section css */
 
 .about-section{
-    margin-top: 50px;
+    padding-top: 50px;
     
 }
 
@@ -163,7 +173,90 @@ header{
 
 
 }
+/* number-section */
+.number-section{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    text-align: center;
+    justify-content: space-between;
+}
+.card-header{
+    font-size: 3rem;
+    font-weight: 900px;
+    color: #00FF88;
+}
 
+.info{
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+}
+
+/* grid-section */
+
+#why{
+    background-color: #230E3D;
+    /* max-width: 1200px; */
+    
+}
+
+.grid-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-heading{
+    padding-top: 120px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+    
+    max-width: 1200px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+
+}
+
+.semi-layout{
+    background-color: #351165;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.big-layout{
+    background-color: #351165;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.small-layout{
+    background-color: #351165;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.grid-h3{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grid-p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    /* font-weight: bold; */
+
+}
 
 /* responsive media query */
 
