@@ -38,6 +38,15 @@
 }
 
 
+hr{
+    border: none;
+    height: 1px;
+    background-color: #757575;
+}
+
+
+
+
 
 /* header styles */
 header{
@@ -208,6 +217,8 @@ header{
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+    
+    
 }
 
 .grid-heading{
@@ -215,6 +226,8 @@ header{
     font-size: 3rem;
     font-weight: bold;
     color: white;
+    
+    
 }
 
 .container{
@@ -227,6 +240,7 @@ header{
     padding-bottom: 120px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 200px);
+    
 
 }
 
@@ -235,6 +249,7 @@ header{
     grid-column: span 1;
     grid-row: span 2;
     padding: 40px 40px;
+    border-radius: 20px;
 }
 
 .big-layout{
@@ -242,12 +257,14 @@ header{
     grid-column: span 2;
     grid-row: span 1;
     padding: 40px 40px;
+    border-radius: 20px;
 }
 .small-layout{
     background-color: #351165;
     grid-column: span 1;
     grid-row: span 1;
     padding: 40px 40px;
+    border-radius: 20px;
 }
 
 .grid-h3{
@@ -341,6 +358,7 @@ header{
     padding-bottom: 40px;
     
     
+    
 }
 #container-two{
     width: 1200px;
@@ -350,6 +368,7 @@ header{
     align-items: center;
     gap: 24px;
     border-radius: 40px;
+    margin-bottom: 120px;
 
 }
 
@@ -393,6 +412,64 @@ header{
     margin-bottom: 16px;
     color: white;
 }
+
+#footer{    
+    background: url(./img/footer-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 120px 0px 120px 0px;
+
+}
+
+.footer-one{
+    width: 1360px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    
+    
+
+}
+
+.logo img{
+    width: 410px;
+    margin-bottom: 32px;
+
+
+}
+
+.social-icon{
+    width: 544px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.icon-card{
+    display: flex;
+    gap: 5px;
+}
+
+.img{
+    width: 20px;
+}
+
+.h4{
+    font-size: 16px;
+    font-weight: 400px;
+    align-items: center;
+    color: white;
+}
+
+.p{
+    font-size: 16px;
+    /* font-weight: ; */
+    line-height:24px; 
+    color: white;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 576px){
