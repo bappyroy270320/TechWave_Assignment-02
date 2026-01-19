@@ -264,6 +264,10 @@ header{
 
 }
 
+.iframe{
+    border-radius: 15px 15px 0px 0px;
+}
+
 /* featured-section */
 #featured-section{
     width: 1200px;
@@ -271,10 +275,12 @@ header{
     justify-content: center;
     display: flex;
     gap: 30px;
+    padding-bottom: 120px;
+    
     
 }
 .featured{
-     width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
@@ -288,6 +294,7 @@ header{
 
 .featured-card{
     background-color: #250D44;
+    border-radius: 15px;
     
 }
 .featured-heading{
@@ -320,6 +327,71 @@ header{
     font-weight: 600px;
     line-height: 24px;
     color: #00FF88;
+}
+
+
+.host{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 40px;
+    
+    
+}
+#container-two{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #250D44;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-radius: 40px;
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-items: center; */
+}
+
+.host-img{
+    width: 200px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.single-icon{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius:50%;        
+    
+}
+
+.host-section{
+    width: 896px;
+    padding: 48.5px 0px 48.5px 0px;
+}
+
+.host-heading{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.host-des{
+    font-size: 16px;
+    font-weight: 200;
+    /* line-height: 24px; */
+    margin-bottom: 16px;
+    color: white;
 }
 /* responsive media query */
 
