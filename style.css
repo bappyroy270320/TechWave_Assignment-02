@@ -413,7 +413,8 @@ header{
     color: white;
 }
 
-#footer{    
+#footer{  
+    
     background: url(./img/footer-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
