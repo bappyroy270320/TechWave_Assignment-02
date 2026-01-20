@@ -63,7 +63,21 @@ header {
   list-style: none;
   margin-top: 100px;
   margin-bottom: 40px;
+   animation: moveDown 2s ease-in-out infinite;
 }
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 /* navbar related styles */
 .header-section {
@@ -447,6 +461,7 @@ header {
   margin: 0 auto;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .logo-img-two {
@@ -599,6 +614,7 @@ header {
   flex-direction: column;
   justify-content: center;
   margin: 20px; 
+  overflow: hidden;
   /* margin: 0 auto; */
   /* grid-template-columns: repeat(1, 1fr); */
 }
@@ -654,6 +670,9 @@ header {
   color: white;
   padding-bottom: 40px;
 }
+
+
+
 
 }
 
