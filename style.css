@@ -672,6 +672,10 @@ header {
   padding-bottom: 40px;
 }
 
+#container-two{
+  overflow: hidden;
+}
+
 .logo-img-two {
   width: 219px;
   display: flex;
