@@ -13,6 +13,10 @@
   display: flex;
 }
 
+.burger{
+  display: none;
+}
+
 .btn {
   color: white;
   font-weight: 600px;
@@ -488,8 +492,24 @@ header {
 }
 
 @media screen and (max-width: 576px) {
-  .navbar,
-  .nav-links {
-    flex-direction: column;
+  /* navbar_section */
+  .navbar {
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
   }
+.nav-links, 
+.button {
+  display: none;
 }
+
+.burger{
+  display: initial;
+  visibility: visible;
+  margin-left: 100px;
+
+}
+
+
+}
+
