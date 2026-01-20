@@ -456,11 +456,13 @@ header{
 
 }
 
-.logo img{
-    width: 200px;
+.logo-img-two{
+    width: 410px;
     display: flex;
     align-items: center;
-    /* margin-bottom: 32px; */
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
 
 }
 
