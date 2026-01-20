@@ -672,8 +672,9 @@ header {
   padding-bottom: 40px;
 }
 
-#container-two{
+#footer-one{
   overflow: hidden;
+  /* margin-bottom: 0px; */
 }
 
 .logo-img-two {
@@ -702,6 +703,12 @@ header {
   align-items: center;
   color: white;
 
+}
+#footer {
+  display: flex;
+  background: url(./img/footer-bg.png);
+  background-position: center center;
+  padding: 50px 0px 50px 0px;
 }
 
 }
