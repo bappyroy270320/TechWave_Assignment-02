@@ -533,7 +533,7 @@ header {
 .info{
   font-size: 14px;
 }
-
+/* why section */
 .container{
   grid-template-areas: 
   "semi-layout"
@@ -568,5 +568,29 @@ header {
 .grid-section{
   padding-bottom: 70px;
 }
+
+#featured-section{
+  max-width: 440px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  margin: 20px; 
+  /* margin-top: 60px; */
+}
+
+.featured{
+  max-width: 440px;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.iframe{
+  width: 100%;
+}
+
 }
 
