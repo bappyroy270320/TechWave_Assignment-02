@@ -509,7 +509,28 @@ header {
   margin-left: 100px;
 
 }
+.banner-container{
+  padding: 50px;
+}
 
-
+.hero-img{
+  margin-top: 50px;
+}
+.about-section h3{
+  font-size: 2.2rem;
+}
+.number-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  padding: 40px 16px 60px;
+  gap: 32px;
+}
+.card-header{
+  font-size: 2.2rem;
+}
+.info{
+  font-size: 14px;
+}
 }
 
