@@ -52,8 +52,8 @@ hr{
 header{
     background-color: #1A0B2E;
     padding-top: 16px;
-    background: url(./img/hero-bg.png);
-    background-repeat: no-repeat;
+    /* background: url(./img/hero-bg.png);
+    background-repeat: no-repeat; */
     /* background-position: center; */
     
     
@@ -67,6 +67,7 @@ header{
 .header-section{
     border-bottom: 1px solid #412567;
     padding-bottom: 16px;
+    
 
 }
 
@@ -94,12 +95,16 @@ header{
 
 /* banner section css */
 .banner-section{
-    width: 34%;
+    width: 100%;
     max-width: 550px;
     justify-content: center;
     margin: 0 auto;
     padding-top: 101px;
     text-align: center;
+    background: url(./img/hero-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     
 
 }
@@ -433,9 +438,10 @@ header{
 }
 
 .logo img{
-    width: 410px;
-    margin-bottom: 32px;
-
+    width: 200px;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 32px; */
 
 }
 
