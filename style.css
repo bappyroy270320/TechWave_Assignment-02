@@ -173,7 +173,7 @@ header{
 /* about section css */
 
 .about-section{
-    padding-top: 50px;
+    /* padding-top: 50px; */
     
 }
 
@@ -235,23 +235,44 @@ header{
     /* max-width: 1200px; */
     
 }
+.headphone-img{
+    display: flex;
+    justify-items: start;
+    margin-bottom: 16px;
+    /* margin: 107px 285px 16px 40px; */
+    /* justify-content: start; */
+    /* align-items: start; */
+}
+.device-img{
+    display: flex;
+    justify-items: start;
+    margin-bottom: 16px;
+    /* margin: 107px 285px 16px 40px; */
+    /* justify-content: start; */
+    /* align-items: start; */
+}
+.resource-img{
+    display: flex;
+    justify-items: start;
+    margin-bottom: 16px;
+    /* margin: 107px 285px 16px 40px; */
+    /* justify-content: start; */
+    /* align-items: start; */
+}
 
 .grid-section{
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    justify-content: center;
-    
-    
+    justify-content: center;       
 }
+
 
 .grid-heading{
     padding-top: 120px;
     font-size: 3rem;
     font-weight: bold;
-    color: white;
-    
-    
+    color: white;        
 }
 
 .container{
@@ -289,18 +310,26 @@ header{
     grid-row: span 1;
     padding: 40px 40px;
     border-radius: 20px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
 }
 
 .grid-h3{
     color: white;
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 16px;
+    text-align: start;
 }
 
 .grid-p{
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
+    font-weight: 300px;
+    text-align: start;
     /* font-weight: bold; */
 
 }
