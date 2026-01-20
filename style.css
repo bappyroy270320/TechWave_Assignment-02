@@ -33,8 +33,12 @@
     padding: 10px 20px;
     background: transparent;
     
+}
 
-
+.all-button{
+    list-style: none;
+    justify-content: center;
+    gap: 8px;
 }
 
 
@@ -55,10 +59,14 @@ header{
     /* background: url(./img/hero-bg.png);
     background-repeat: no-repeat; */
     /* background-position: center; */
-    
-    
-    
+   
 }
+.hero-img{
+    justify-content: center;
+    list-style: none;
+    margin-top: 100px;
+}
+
 
 
 
@@ -106,19 +114,29 @@ header{
     background-position: center center;
     background-repeat: no-repeat;
     
+}
 
+.banner-container{
+    padding: 101px 625px 309px 625px;
+    background: url(./img/hero-bg.png) center no-repeat;
+    background-size: cover;
+}
+
+.mic{
+    margin-left: -235px;
+    margin-top: 80px;
 }
 
 .banner-img {
     
     margin: 0 auto 40px auto;
     
-
 }
 .banner-text{
     font-size: 3.75rem;
     color: white;
-    margin-bottom: 8px;
+    text-align: center;
+    /* margin-bottom: 8px; */
 
 }
 .banner-button{
@@ -126,12 +144,11 @@ header{
 
 }
 
-.banner-pera{
-    
+.banner-pera{   
     font-size: 0.9375rem;
     color: white;
     padding-bottom: 24px;
-
+    text-align: center;
 
 }
 
