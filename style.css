@@ -520,7 +520,7 @@ header {
   font-size: 2.2rem;
 }
 .number-section{
-  max-width: 440px;
+  max-width: 400px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -550,7 +550,7 @@ header {
 }
 
 .container{
-  max-width: 440px;
+  max-width: 400px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
@@ -570,7 +570,7 @@ header {
 }
 
 #featured-section{
-  max-width: 440px;
+  max-width: 400px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
@@ -579,7 +579,7 @@ header {
 }
 
 .featured{
-  max-width: 440px;
+  max-width: 400px;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
@@ -591,6 +591,71 @@ header {
 .iframe{
   width: 100%;
 }
+/* host section */
+
+#container-two{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px; 
+  /* margin: 0 auto; */
+  /* grid-template-columns: repeat(1, 1fr); */
+}
+.host-heading{
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.host-des{
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.icon{
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300px;
+  color: white;
+  margin-bottom: 8px;
 
 }
+
+.host{
+   width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 40px;
+}
+
+}
+
+
 
